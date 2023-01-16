@@ -1,0 +1,21 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    font-size: xx-large;
+}
+
+/* media query
+max-width max-height min-wid min-hie */
+
+@media(min-width:500px) and (max-width:800px){
+    div{
+        background-color: aqua;
+    }
+    span{
+        display: none;
+    }
+    p{
+        font-size: smaller;
+    }
+}
